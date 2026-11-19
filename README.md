@@ -1,4 +1,4 @@
-# SSH public keys — cmardikas
+# SSH public keys
 
 My public SSH keys for administrators to use when granting me access to servers.
 
