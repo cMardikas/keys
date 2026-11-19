@@ -12,10 +12,11 @@ These files are published for distribution only, not for GitHub authentication.
 
 ## Download
 
-Run this command to download the public key:
+Run these commands to download the public key:
 
 ```bash
-curl -fsSL [https://raw.githubusercontent.com/cmardikas/ssh-keys/main/KIKK-martm-ssh.pub](https://raw.githubusercontent.com/cmardikas/ssh-keys/main/KIKK-martm-ssh.pub) -o KIKK-martm-ssh.pub
+host=raw.githubusercontent.com
+curl -fsSL "[https://${host}/cmardikas/ssh-keys/main/KIKK-martm-ssh.pub](https://${host}/cmardikas/ssh-keys/main/KIKK-martm-ssh.pub)" -o KIKK-martm-ssh.pub
 ```
 
 ## Verify before granting access
