@@ -8,16 +8,7 @@ These files are published for distribution only, not for GitHub authentication.
 
 | File | Description |
 |---|---|
-| [KIKK-martm-ssh.pub](./KIKK-martm-ssh.pub) | YubiKey-backed SSH key, type `sk-ssh-ed25519@openssh.com` |
-
-## Download
-
-Run these commands to download the public key:
-
-```bash
-host=raw.githubusercontent.com
-curl -fsSL "[https://${host}/cmardikas/ssh-keys/main/KIKK-martm-ssh.pub](https://${host}/cmardikas/ssh-keys/main/KIKK-martm-ssh.pub)" -o KIKK-martm-ssh.pub
-```
+| [ssh.pub](./ssh.pub) | YubiKey-backed SSH key, type `sk-ssh-ed25519@openssh.com` |
 
 ## Verify before granting access
 
@@ -26,7 +17,7 @@ Contact me through an established, trusted channel to confirm the key's SHA-256 
 To display the downloaded key's fingerprint:
 
 ```bash
-ssh-keygen -lf KIKK-martm-ssh.pub -E sha256
+ssh-keygen -lf ssh.pub -E sha256
 ```
 
 ## Key changes
